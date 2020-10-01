@@ -1,4 +1,4 @@
 <?php
-include "verifica_sessao.php";
+//include "verifica_sessao.php";
 
 ?>
