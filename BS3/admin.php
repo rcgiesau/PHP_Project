@@ -154,8 +154,9 @@
                             </div>
                             
                                 <div class="mensagem-erro"></div>
+                                <form id="login-form" class="form-horizontal" role="form" action="efetua_login.php" method="post">
                             <div class="content">
-                               <!-- <form id="login-form" class="form-horizontal" role="form" action="" method="post">-->
+                             
                                 <div class="window" id="janela1">
                                     <div class="row">
                                     
@@ -175,7 +176,7 @@
                                         </div>
                                     </div>      
                                     <button id="acessar" class="btn btn-info btn-fill pull-right">Acessar</button>  
-                                   <!-- </form>-->
+                                    </form>
                                     <P></P>                                 
                                     <div class="clearfix"></div>
                                 

@@ -15,10 +15,10 @@ $resulta = mysqli_query($db,$query);
 //mysqli_free_result($resulta); //libera a consulta da memória
 $total= mysqli_num_rows($resulta);
 If($total > 0){
-	
-        echo 1;
+    header('Location: ../BS3/painel_admin.php');
     }else{
         echo 0;
+        header('Location: ../BS3/admin.php');
     }
  
 
