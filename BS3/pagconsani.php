@@ -118,7 +118,7 @@ while($f = mysqli_fetch_array($resulta)){
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Consulta de Cliente / Animal</a>
+                    <a class="navbar-brand" href="#">Consulta de Cliente / Pet</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-left">
@@ -170,7 +170,7 @@ while($f = mysqli_fetch_array($resulta)){
                     <div class="col-md-8">
                         <div class="card">
                             <div class="header">
-                            <h4 class="title">Consulta Cliente/Animal</h4>
+                            <h4 class="title">Consulta Cliente/Pet</h4>
                             </div>
                             <div class="content">
                                 <div class="window" id="janela1">
@@ -219,7 +219,7 @@ while($f = mysqli_fetch_array($resulta)){
                                     <div class="row">
                                         <div class="col-md-2">
                                             <div class="form-group">
-                                                <label>Animal</label>
+                                                <label>Pet</label>
                                                 <label></label>
                                             </div>
                                         </div>
@@ -289,7 +289,7 @@ while($f = mysqli_fetch_array($resulta)){
                                                     <label class="form-check-label">
                                                         <input class="form-check-input" type="checkbox" value="" id="escolha" onclick="exibe('cadastro');">
                                                         <span class="form-check-sign"></span>
-                                                        Deseja cadastrar um animal?
+                                                        Deseja cadastrar um novo pet?
                                                     </label>
                                                 </div>
                                             </div>
@@ -300,7 +300,7 @@ while($f = mysqli_fetch_array($resulta)){
                                     <div class="row" >
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label>Para cadastrar um animal, insira os dados abaixo.</label>
+                                                <label>Para cadastrar um novo pet, insira os dados abaixo.</label>
                                                 <label></label>
                                             </div>
                                         </div>
@@ -308,8 +308,8 @@ while($f = mysqli_fetch_array($resulta)){
                                     <div class="row" >
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label>Nome do Animal</label>
-                                                <input type="text" class="form-control"  placeholder="Nome do animal" name="name" id="name">
+                                                <label>Nome do Pet</label>
+                                                <input type="text" class="form-control"  placeholder="Nome do pet" name="name" id="name">
                                             </div>
                                         </div>
                                     </div>

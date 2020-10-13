@@ -155,6 +155,7 @@
                                 </div>
 
                                 <div class="mensagem-erro"></div>
+<<<<<<< HEAD
                                 <div class="content">
                                     <form id="login-form" role="form" action="efetua_login.php" method="post" name="login">
                                         <div class="window" id="janela1">
@@ -166,6 +167,18 @@
                                                         <input type="text" class="form-control" placeholder="Login" name="login" id="login">
                                                     </div>
                                                 </div>
+=======
+                                <form id="login-form" class="form-horizontal" role="form" action="efetua_login.php" method="post">
+                            <div class="content">
+                             
+                                <div class="window" id="janela1">
+                                    <div class="row">
+                                    
+                                        <div class="col-md-8">
+                                            <div class="form-group">
+                                                <label>Login</label>
+                                                <input type="text" class="form-control"  placeholder="Login" name="login" id="login">
+>>>>>>> 7880fb350976d143f5b520af36a337e7494cfa33
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-8">
@@ -175,9 +188,17 @@
                                                     </div>
                                                 </div>
                                             </div>
+<<<<<<< HEAD
                                             <button id="acessar" class="btn btn-info btn-fill pull-right">Acessar</button>
                                     </form>
                                     <P></P>
+=======
+                                        </div>
+                                    </div>      
+                                    <button id="acessar" class="btn btn-info btn-fill pull-right">Acessar</button>  
+                                    </form>
+                                    <P></P>                                 
+>>>>>>> 7880fb350976d143f5b520af36a337e7494cfa33
                                     <div class="clearfix"></div>
 
                                 </div>
